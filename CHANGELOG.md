@@ -1,3 +1,10 @@
+## 1.5.0
+- Update Android PDF viewer library to `com.github.marain87:AndroidPdfViewer:3.2.7` which fixes pdf signature rendering and also supports Android 16KB page size
+- Breaking Change: Add jitpack maven repository to your `android/build.gradle` file:
+```
+maven { url 'https://jitpack.io' }
+```
+
 ## 1.4.2-beta.1
 - Add Android 16KB page size support [#321](https://github.com/endigo/flutter_pdfview/pull/321) @opsenes
 - Update Android PDF viewer library to `io.github.oothp:android-pdf-viewer:3.2.0-beta05`

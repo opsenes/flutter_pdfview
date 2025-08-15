@@ -15,7 +15,18 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  flutter_pdfview: 1.3.2
+  flutter_pdfview: 1.5.0
+```
+
+Add jitpack maven repository to your `android/build.gradle` file:
+
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
 ### 2. Install it
